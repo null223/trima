@@ -1,5 +1,5 @@
 {
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
-  "entryFile": "public/index.js"
+  "entryFile": "api/index.js"
 }
