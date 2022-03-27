@@ -22,4 +22,5 @@ const handler = async (event, context, callback) => {
     return server(event, context, callback);
 };
 exports.handler = handler;
+exports.default = exports.handler;
 //# sourceMappingURL=lambda.js.map
