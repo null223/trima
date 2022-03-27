@@ -12,7 +12,7 @@ import { CreateTripDto } from './dto/create-trip.dto';
 import { UpdateTripDto } from './dto/update-trip.dto';
 import { Trip } from '@prisma/client';
 
-@Controller('trip')
+@Controller('api/trip')
 export class TripController {
   constructor(private readonly tripService: TripService) {}
 

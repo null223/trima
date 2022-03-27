@@ -73,7 +73,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], TripController.prototype, "remove", null);
 TripController = __decorate([
-    (0, common_1.Controller)('trip'),
+    (0, common_1.Controller)('api/trip'),
     __metadata("design:paramtypes", [trip_service_1.TripService])
 ], TripController);
 exports.TripController = TripController;
